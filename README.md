@@ -1,0 +1,1 @@
+# RDM-client-software-inventory
