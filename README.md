@@ -1,6 +1,6 @@
 # RDM-client-software-inventory
 
-This repository is setup to exchange experiences with clients for various RDM solutions. The scope is intentionally broad: clients types may include file-transfer, sync, virtual file systems or command line tools, different protocols: WebDAV, iRODS, etc. We initially targeted RDM solutions such as Yoda and Research Drive, but feel free to submit other reports of possible interest.
+This repository is setup to exchange experiences with clients for various RDM solutions. The scope is intentionally broad: clients types may include file-transfer clients, sync clients, virtual file systems or command line tools using different protocols: WebDAV, iRODS, etc. We primarily target RDM solutions such as Yoda, iRODS and Research Drive, but feel please free to submit other reports of possible interest.
 
 Please use the **Issue tracker** to submit a new report, using the following (optional) template:
 
