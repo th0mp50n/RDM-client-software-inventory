@@ -2,7 +2,7 @@
 
 This repository is setup to exchange experiences with clients for various RDM solutions. The scope is intentionally broad: clients types may include file-transfer, sync, virtual file systems or command line tools, different protocols: WebDAV, iRODS, etc. We initially targeted RDM solutions such as Yoda and Research Drive, but feel free to submit other reports of possible interest.
 
-Use the Issue tracker to submit a new report, using the following (optional) template:
+Use the **Issue tracker** to submit a new report, using the following (optional) template:
 
     ## Background
     
