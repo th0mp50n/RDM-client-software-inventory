@@ -1,33 +1,32 @@
-# RDM-client-software-inventory
+# iRODS performance test script
 
-This repository is setup to exchange experiences with clients for various RDM solutions. The scope is intentionally broad: client types may include file-transfer clients, sync clients, virtual file systems or command line tools using different protocols: WebDAV, iRODS, etc. We primarily target RDM solutions such as Yoda, iRODS and Research Drive, but feel please free to submit other reports of possible interest related to client software. Reports may consist of anything from brief observations to more detailed (performance) tests.
+Author: Christine Staiger (Wageningen University & Research)
 
-Please use the **Issue tracker** to submit a new report, using the following (optional) template:
+## Synopsis
 
-    ## Background
-    
-    #### reported by (if different from issue submitter)
-    
-    #### date (if different from issue date)
-    
-    #### type (problem, experiment, use-case, general experience, performance test)
-    
-    #### RDM product, e.g. Yoda, Research Drive
-    
-    #### client (version) and protocol
-    
-    #### client OS and other relevant client details
-    
-    #### relevant data properties: large size, encrypted files, ...
-    
-    ## Details
-    
-    #### actions performed
-    
-    #### observed behavior (incl. error messages)
-    
-    #### expected behavior
-    
-    #### other information
-    
-    
+This little script is made to quickly run performance tests on different iRODS clients. Currently, the script runs the icommands, the python iRODS API and cadaver (on the webdav endpoint Davrods).
+
+## Prerequisites
+
+To run the script you need a Linux environment with:
+
+- Cadaver
+- icommands
+- Python iRODS API
+
+Further python dependecies:
+
+- Python 3.6
+- pickle
+- matplotlib
+- numpy
+- pandas
+
+## Usage
+
+```
+python3 irodsPerf.py
+```
+
+Results will be stored in a pickle file `irodsPerformances.out.pickle`.
+
