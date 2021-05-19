@@ -194,11 +194,11 @@ for client in clients:
     if client == 'python':
         print("python client performance")
         #password = getpass.getpass('iRODS password: ')
-        password = "c1estMOI"
+        password = "...."
         session = pythonIrodsSession(password, envfile = None,
-                                     host='scomp1461.wur.nl',
-                                     user='christine',
-                                     zone='npecZone')
+                                     host='MYHOST',
+                                     user='MYUSER',
+                                     zone='MYZONE')
         collpath = testcoll('/'+session.zone+'/home/'+session.username+'/'+collname,
                             client = "python", session = session)
         print("Single large files ...")
